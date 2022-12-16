@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson_24</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="page">
+			<div class="answer-box">
+				<div class="answer-box__function answer">Функції</div>
+				<ul>
+					<li>
+						№1 Коля буде першим, оскільки setTimeout поставить на затримку функцію showName, і вона буде виконуватись після решти коду який буде.
+					</li>
+					<li>
+						№2 Функція записана правильно
+					</li>
+					<li>
+						№3 Буде помилка, оскільки функція викликана до її створення.
+					</li>
+					<li>
+						№4 Функція викликана в режимі 'use strict' за межами блоку if. Переносимо виклик функції showMessage(); всередину блоку.
+					</li>
+				</ul>
+				<div class="answer-box__two answer">Масиви</div>
+				<ul>
+					<li>
+						№1 Довжина масиву буде 4. Спочатку ми мали три елементи масиву, потім добавили ще один (newArr.push('Петя');).
+					</li>
+					<li>
+						№2 
+						<img src="img/02.png" alt="">
+					</li>
+					<li>
+						№3 
+						<img src="img/03.png" alt="">
+					</li>
+					<li>
+						№4 
+						<img src="img/04.png" alt="">
+					</li>
+					<li>
+						№5 arrTwo не заданий, тому помилка. Але якщо його задати, то previousValue буде дорівнювати першому елементу масиву, оскільки початкове значення не задано.
+					</li>
+				</ul>
+				<div class="answer-box__three answer">DOM</div>
+				<div data-say-hi="yes">Привіт!</div>
+				<ul class="name-list">
+					<li class="name">Корчі</li>
+					<li class="name">Йончі</li>
+					<li>
+						№4 Потрібно змінити querySelectorAll на querySelector, інакше буде помилка. Текст вставиться перед закриваючим тегом ul.
+					</li>
+				</ul>
+				<div class="answer-box__three answer">Scroll код в js</div>
+			</div>
+			
+		</main>
+		<footer class="footer"></footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
