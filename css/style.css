@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap');
+body{
+	font-family: 'Lato';
+	color: #424551;
+	font-family: 'Montserrat';
+}
+
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main{
+	flex-grow: 1;
+}
+/* ============================ */
+
+.answer-box {
+	padding: 50px;
+	font-size: 25px;
+	margin: 0 auto;
+	background: rgb(178, 245, 188);
+	line-height: 1.5;
+}
+
+ul:not(:last-child) {
+	margin-bottom: 30px;
+}
+li:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.answer {
+	font-weight: 700;
+	margin-bottom: 20px;
+}
